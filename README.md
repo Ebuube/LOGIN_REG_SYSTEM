@@ -69,5 +69,5 @@ until a valid email is entered. Then it will display a welcome message.
 ### Database
 
 This program uses a text file for database. It is in this structure
-|Username||Password|
+`|Username||Password|`
 That is why it disallows `|` being used in names or passwords.
