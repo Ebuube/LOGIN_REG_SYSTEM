@@ -49,7 +49,7 @@ reject it and display the notification:
 * `Password should be at least 8 characters long. It must have at least
 one special character, one digit and one alphabetical character`
 
-Followed by a menu
+Followed by a menu:
 	- `Enter Password`
 	- `Suggest Password`
 	- `Exit`
