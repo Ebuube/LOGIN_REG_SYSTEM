@@ -1,7 +1,7 @@
 ```
 ONWUTA EBUBE GIDEON
 ```
-## LOGIN REGISTRATION SYSTEM
+### LOGIN REGISTRATION SYSTEM
 
 This is a program that handles the way users login in to any program you attach
 it to. Example, you can add this program to help you manage user login to your
