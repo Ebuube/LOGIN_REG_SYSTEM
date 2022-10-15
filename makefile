@@ -11,7 +11,7 @@ SRC=src
 #  -Wextra : givevs extra compiler warning for a better code
 #  -std=gnu89 : sets compiler to warn against using C coding style that it
 #  	is not allowed outside C89
-CFLAG= -g -Wall -pedantic -Werror -Wextra -std=gnu89
+CFLAGS= -g -Wall -pedantic -Werror -Wextra -std=gnu89
 
 TARGET=main
 
