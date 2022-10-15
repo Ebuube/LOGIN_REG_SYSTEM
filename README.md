@@ -4,7 +4,8 @@ ONWUTA EBUBE GIDEON
 ## LOGIN REGISTRATION SYSTEM
 
 This is a program that handles the way users login in to any program you attach
-it to. Example, you can add this program to help you manage user login to your app or website.
+it to. Example, you can add this program to help you manage user login to your
+app or website.
 
 * The system has several procedures
 First, it provides two options:
@@ -17,6 +18,8 @@ It request username, followed by password.
 * `Enter Username: _`
 * `Enter Password: _`
 
+NB: USERNAME should not contain the character `|` because it is needed for the
+simple database structure.
 It then checks its database if this username has the given password.
 If there is no such user or that the password supplied is incorrect,
 the program displays the notification
@@ -61,3 +64,10 @@ It will verify this email address. If email is valid, the program will
 display a welcome message.
 However, if email is invalid, it will ask for a different email address,
 until a valid email is entered. Then it will display a welcome message.
+
+
+# Database
+
+This program uses a text file for database. It is in this structure
+|Username||Password|
+That is why it disallows `|` being used in names or passwords.
