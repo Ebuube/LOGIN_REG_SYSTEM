@@ -1,7 +1,7 @@
 ```
 ONWUTA EBUBE GIDEON
 ```
-### LOGIN REGISTRATION SYSTEM
+## LOGIN REGISTRATION SYSTEM
 
 This is a program that handles the way users login in to any program you attach
 it to. Example, you can add this program to help you manage user login to your
@@ -13,7 +13,7 @@ First, it provides two options:
 	- `Sign Up (if you don't have an account with us)`
 	- `Exit`
 
-# 1) If the User selects `Sign In`
+### 1) If the User selects `Sign In`
 It request username, followed by password.
 * `Enter Username: _`
 * `Enter Password: _`
@@ -33,7 +33,7 @@ Next it provides a menu:
 However, if the Username matches the password, this program displays the
 simple message welcome message and exit.
 
-# 2) If the User selects `Sign Up`
+### 2) If the User selects `Sign Up`
 It request New username.
 * `Enter a unique Username: _`
 If the user enters an already existing name, it will notifiy the user and
@@ -66,7 +66,7 @@ However, if email is invalid, it will ask for a different email address,
 until a valid email is entered. Then it will display a welcome message.
 
 
-# Database
+### Database
 
 This program uses a text file for database. It is in this structure
 |Username||Password|
